@@ -17,7 +17,7 @@ a pull request there.
     about
     installation/index
     getting_started/index
-
+    api_reference/index
 
 Indices and tables
 ==================

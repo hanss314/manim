@@ -1,3 +1,7 @@
+"""
+Scenes containing vectors and animations of vector transformations
+"""
+
 import numpy as np
 
 from manimlib.animation.animation import Animation
@@ -275,6 +279,9 @@ class VectorScene(Scene):
 
 
 class LinearTransformationScene(VectorScene):
+    """
+    This scene is specialized for performing linear transformations
+    """
     CONFIG = {
         "include_background_plane": True,
         "include_foreground_plane": True,
